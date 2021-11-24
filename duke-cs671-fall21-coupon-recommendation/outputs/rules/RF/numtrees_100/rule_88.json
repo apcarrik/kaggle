@@ -1,0 +1,11 @@
+[
+{"current_level": 1, "leaf_id": "e2ffcd8c-4cce-11ec-928a-3af9d3e9a6f0", "parents": "root", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 10, "metric": 0, "return_statement": 0, "tree_id": 88}, 
+{"current_level": 1, "leaf_id": "e301c650-4cce-11ec-928a-3af9d3e9a6f0", "parents": "root", "rule": "if obj[7]<=0:", "feature_idx": 7, "feature_name": "Gender", "instances": 10, "metric": 1.0, "return_statement": 0, "tree_id": 88}, 
+{"current_level": 2, "leaf_id": "e31e3696-4cce-11ec-928a-3af9d3e9a6f0", "parents": "e301c650-4cce-11ec-928a-3af9d3e9a6f0", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 6, "metric": 0, "return_statement": 0, "tree_id": 88}, 
+{"current_level": 2, "leaf_id": "e32043b4-4cce-11ec-928a-3af9d3e9a6f0", "parents": "e301c650-4cce-11ec-928a-3af9d3e9a6f0", "rule": "if obj[19]<=0:", "feature_idx": 19, "feature_name": "Direction_same", "instances": 6, "metric": 0.6500224216483541, "return_statement": 0, "tree_id": 88}, 
+{"current_level": 3, "leaf_id": "e320456c-4cce-11ec-928a-3af9d3e9a6f0", "parents": "e32043b4-4cce-11ec-928a-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 19, "feature_name": "Direction_same", "instances": 6, "metric": 0, "return_statement": 1, "tree_id": 88}, 
+{"current_level": 2, "leaf_id": "e322ceb8-4cce-11ec-928a-3af9d3e9a6f0", "parents": "e301c650-4cce-11ec-928a-3af9d3e9a6f0", "rule": "if obj[19]>0:", "feature_idx": 19, "feature_name": "Direction_same", "instances": 6, "metric": 0.6500224216483541, "return_statement": 0, "tree_id": 88}, 
+{"current_level": 3, "leaf_id": "e322d0b6-4cce-11ec-928a-3af9d3e9a6f0", "parents": "e322ceb8-4cce-11ec-928a-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 19, "feature_name": "Direction_same", "instances": 6, "metric": 0, "return_statement": 1, "tree_id": 88}, 
+{"current_level": 1, "leaf_id": "e327636a-4cce-11ec-928a-3af9d3e9a6f0", "parents": "root", "rule": "if obj[7]>0:", "feature_idx": 7, "feature_name": "Gender", "instances": 10, "metric": 1.0, "return_statement": 0, "tree_id": 88}, 
+{"current_level": 2, "leaf_id": "e3276536-4cce-11ec-928a-3af9d3e9a6f0", "parents": "e327636a-4cce-11ec-928a-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 7, "feature_name": "Gender", "instances": 10, "metric": 0, "return_statement": 1, "tree_id": 88}
+]

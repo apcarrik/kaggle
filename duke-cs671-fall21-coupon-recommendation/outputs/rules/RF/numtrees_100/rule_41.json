@@ -1,0 +1,11 @@
+[
+{"current_level": 1, "leaf_id": "e11fa12c-4cce-11ec-9173-3af9d3e9a6f0", "parents": "root", "rule": "else: return 'True'", "feature_idx": -1, "feature_name": "", "instances": 10, "metric": 0, "return_statement": 0, "tree_id": 41}, 
+{"current_level": 1, "leaf_id": "e1219d60-4cce-11ec-9173-3af9d3e9a6f0", "parents": "root", "rule": "if obj[0]>0:", "feature_idx": 0, "feature_name": "Driving_to", "instances": 10, "metric": 1.0, "return_statement": 0, "tree_id": 41}, 
+{"current_level": 2, "leaf_id": "e1408176-4cce-11ec-9173-3af9d3e9a6f0", "parents": "e1219d60-4cce-11ec-9173-3af9d3e9a6f0", "rule": "else: return 'True'", "feature_idx": -1, "feature_name": "", "instances": 7, "metric": 0, "return_statement": 0, "tree_id": 41}, 
+{"current_level": 2, "leaf_id": "e143dd4e-4cce-11ec-9173-3af9d3e9a6f0", "parents": "e1219d60-4cce-11ec-9173-3af9d3e9a6f0", "rule": "if obj[3]<=55:", "feature_idx": 3, "feature_name": "Temperature", "instances": 7, "metric": 0.863120568566631, "return_statement": 0, "tree_id": 41}, 
+{"current_level": 3, "leaf_id": "e143df38-4cce-11ec-9173-3af9d3e9a6f0", "parents": "e143dd4e-4cce-11ec-9173-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 3, "feature_name": "Temperature", "instances": 7, "metric": 0, "return_statement": 1, "tree_id": 41}, 
+{"current_level": 2, "leaf_id": "e1465042-4cce-11ec-9173-3af9d3e9a6f0", "parents": "e1219d60-4cce-11ec-9173-3af9d3e9a6f0", "rule": "if obj[3]>55:", "feature_idx": 3, "feature_name": "Temperature", "instances": 7, "metric": 0.863120568566631, "return_statement": 0, "tree_id": 41}, 
+{"current_level": 3, "leaf_id": "e1465286-4cce-11ec-9173-3af9d3e9a6f0", "parents": "e1465042-4cce-11ec-9173-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 3, "feature_name": "Temperature", "instances": 7, "metric": 0, "return_statement": 1, "tree_id": 41}, 
+{"current_level": 1, "leaf_id": "e14b12d0-4cce-11ec-9173-3af9d3e9a6f0", "parents": "root", "rule": "if obj[0]<=0:", "feature_idx": 0, "feature_name": "Driving_to", "instances": 10, "metric": 1.0, "return_statement": 0, "tree_id": 41}, 
+{"current_level": 2, "leaf_id": "e14b147e-4cce-11ec-9173-3af9d3e9a6f0", "parents": "e14b12d0-4cce-11ec-9173-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 0, "feature_name": "Driving_to", "instances": 10, "metric": 0, "return_statement": 1, "tree_id": 41}
+]

@@ -1,0 +1,11 @@
+[
+{"current_level": 1, "leaf_id": "e0bc9fa0-4cce-11ec-94e3-3af9d3e9a6f0", "parents": "root", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 10, "metric": 0, "return_statement": 0, "tree_id": 31}, 
+{"current_level": 1, "leaf_id": "e0bf2e96-4cce-11ec-94e3-3af9d3e9a6f0", "parents": "root", "rule": "if obj[15]>1.0:", "feature_idx": 15, "feature_name": "Coffeehouse", "instances": 10, "metric": 0.9709505944546686, "return_statement": 0, "tree_id": 31}, 
+{"current_level": 2, "leaf_id": "e0bf309e-4cce-11ec-94e3-3af9d3e9a6f0", "parents": "e0bf2e96-4cce-11ec-94e3-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 15, "feature_name": "Coffeehouse", "instances": 10, "metric": 0, "return_statement": 1, "tree_id": 31}, 
+{"current_level": 1, "leaf_id": "e0c1d236-4cce-11ec-94e3-3af9d3e9a6f0", "parents": "root", "rule": "if obj[15]<=1.0:", "feature_idx": 15, "feature_name": "Coffeehouse", "instances": 10, "metric": 0.9709505944546686, "return_statement": 0, "tree_id": 31}, 
+{"current_level": 2, "leaf_id": "e0dc69c0-4cce-11ec-94e3-3af9d3e9a6f0", "parents": "e0c1d236-4cce-11ec-94e3-3af9d3e9a6f0", "rule": "else: return 'True'", "feature_idx": -1, "feature_name": "", "instances": 5, "metric": 0, "return_statement": 0, "tree_id": 31}, 
+{"current_level": 2, "leaf_id": "e0de8610-4cce-11ec-94e3-3af9d3e9a6f0", "parents": "e0c1d236-4cce-11ec-94e3-3af9d3e9a6f0", "rule": "if obj[5]<=3:", "feature_idx": 5, "feature_name": "Coupon", "instances": 5, "metric": 0.7219280948873623, "return_statement": 0, "tree_id": 31}, 
+{"current_level": 3, "leaf_id": "e0de8886-4cce-11ec-94e3-3af9d3e9a6f0", "parents": "e0de8610-4cce-11ec-94e3-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 5, "feature_name": "Coupon", "instances": 5, "metric": 0, "return_statement": 1, "tree_id": 31}, 
+{"current_level": 2, "leaf_id": "e0e09dc4-4cce-11ec-94e3-3af9d3e9a6f0", "parents": "e0c1d236-4cce-11ec-94e3-3af9d3e9a6f0", "rule": "if obj[5]>3:", "feature_idx": 5, "feature_name": "Coupon", "instances": 5, "metric": 0.7219280948873623, "return_statement": 0, "tree_id": 31}, 
+{"current_level": 3, "leaf_id": "e0e09f86-4cce-11ec-94e3-3af9d3e9a6f0", "parents": "e0e09dc4-4cce-11ec-94e3-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 5, "feature_name": "Coupon", "instances": 5, "metric": 0, "return_statement": 1, "tree_id": 31}
+]

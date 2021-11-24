@@ -1,0 +1,11 @@
+[
+{"current_level": 1, "leaf_id": "e207a422-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "root", "rule": "else: return 'True'", "feature_idx": -1, "feature_name": "", "instances": 10, "metric": 0, "return_statement": 0, "tree_id": 63}, 
+{"current_level": 1, "leaf_id": "e2099d36-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "root", "rule": "if obj[3]>55:", "feature_idx": 3, "feature_name": "Temperature", "instances": 10, "metric": 1.0, "return_statement": 0, "tree_id": 63}, 
+{"current_level": 2, "leaf_id": "e2260e44-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "e2099d36-4cce-11ec-b4b3-3af9d3e9a6f0", "rule": "else: return 'True'", "feature_idx": -1, "feature_name": "", "instances": 6, "metric": 0, "return_statement": 0, "tree_id": 63}, 
+{"current_level": 2, "leaf_id": "e2283584-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "e2099d36-4cce-11ec-b4b3-3af9d3e9a6f0", "rule": "if obj[5]>0:", "feature_idx": 5, "feature_name": "Coupon", "instances": 6, "metric": 0.6500224216483541, "return_statement": 0, "tree_id": 63}, 
+{"current_level": 3, "leaf_id": "e2283764-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "e2283584-4cce-11ec-b4b3-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 5, "feature_name": "Coupon", "instances": 6, "metric": 0, "return_statement": 1, "tree_id": 63}, 
+{"current_level": 2, "leaf_id": "e22a2614-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "e2099d36-4cce-11ec-b4b3-3af9d3e9a6f0", "rule": "if obj[5]<=0:", "feature_idx": 5, "feature_name": "Coupon", "instances": 6, "metric": 0.6500224216483541, "return_statement": 0, "tree_id": 63}, 
+{"current_level": 3, "leaf_id": "e22a27e0-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "e22a2614-4cce-11ec-b4b3-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 5, "feature_name": "Coupon", "instances": 6, "metric": 0, "return_statement": 1, "tree_id": 63}, 
+{"current_level": 1, "leaf_id": "e22e7cd2-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "root", "rule": "if obj[3]<=55:", "feature_idx": 3, "feature_name": "Temperature", "instances": 10, "metric": 1.0, "return_statement": 0, "tree_id": 63}, 
+{"current_level": 2, "leaf_id": "e22e7f5c-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "e22e7cd2-4cce-11ec-b4b3-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 3, "feature_name": "Temperature", "instances": 10, "metric": 0, "return_statement": 1, "tree_id": 63}
+]

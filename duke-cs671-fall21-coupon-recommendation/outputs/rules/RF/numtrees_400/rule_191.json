@@ -1,0 +1,7 @@
+[
+{"current_level": 1, "leaf_id": "ef54f2c4-4cce-11ec-9397-3af9d3e9a6f0", "parents": "root", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 3, "metric": 0, "return_statement": 0, "tree_id": 191}, 
+{"current_level": 1, "leaf_id": "ef589f5a-4cce-11ec-9397-3af9d3e9a6f0", "parents": "root", "rule": "if obj[14]<=1.0:", "feature_idx": 14, "feature_name": "Bar", "instances": 3, "metric": 0.9182958340544896, "return_statement": 0, "tree_id": 191}, 
+{"current_level": 2, "leaf_id": "ef58a16c-4cce-11ec-9397-3af9d3e9a6f0", "parents": "ef589f5a-4cce-11ec-9397-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 14, "feature_name": "Bar", "instances": 3, "metric": 0, "return_statement": 1, "tree_id": 191}, 
+{"current_level": 1, "leaf_id": "ef5c277e-4cce-11ec-9397-3af9d3e9a6f0", "parents": "root", "rule": "if obj[14]>1.0:", "feature_idx": 14, "feature_name": "Bar", "instances": 3, "metric": 0.9182958340544896, "return_statement": 0, "tree_id": 191}, 
+{"current_level": 2, "leaf_id": "ef5c299a-4cce-11ec-9397-3af9d3e9a6f0", "parents": "ef5c277e-4cce-11ec-9397-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 14, "feature_name": "Bar", "instances": 3, "metric": 0, "return_statement": 1, "tree_id": 191}
+]

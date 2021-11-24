@@ -1,0 +1,7 @@
+[
+{"current_level": 1, "leaf_id": "eeca7d88-4cce-11ec-acf5-3af9d3e9a6f0", "parents": "root", "rule": "else: return 'True'", "feature_idx": -1, "feature_name": "", "instances": 3, "metric": 0, "return_statement": 0, "tree_id": 158}, 
+{"current_level": 1, "leaf_id": "eeceae58-4cce-11ec-acf5-3af9d3e9a6f0", "parents": "root", "rule": "if obj[1]>0:", "feature_idx": 1, "feature_name": "Passanger", "instances": 3, "metric": 0.9182958340544896, "return_statement": 0, "tree_id": 158}, 
+{"current_level": 2, "leaf_id": "eeceb04c-4cce-11ec-acf5-3af9d3e9a6f0", "parents": "eeceae58-4cce-11ec-acf5-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 1, "feature_name": "Passanger", "instances": 3, "metric": 0, "return_statement": 1, "tree_id": 158}, 
+{"current_level": 1, "leaf_id": "eed1c39a-4cce-11ec-acf5-3af9d3e9a6f0", "parents": "root", "rule": "if obj[1]<=0:", "feature_idx": 1, "feature_name": "Passanger", "instances": 3, "metric": 0.9182958340544896, "return_statement": 0, "tree_id": 158}, 
+{"current_level": 2, "leaf_id": "eed1c6e2-4cce-11ec-acf5-3af9d3e9a6f0", "parents": "eed1c39a-4cce-11ec-acf5-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 1, "feature_name": "Passanger", "instances": 3, "metric": 0, "return_statement": 1, "tree_id": 158}
+]

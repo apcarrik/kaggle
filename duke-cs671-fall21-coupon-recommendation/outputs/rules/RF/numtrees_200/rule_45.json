@@ -1,0 +1,7 @@
+[
+{"current_level": 1, "leaf_id": "e670179c-4cce-11ec-9f15-3af9d3e9a6f0", "parents": "root", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 5, "metric": 0, "return_statement": 0, "tree_id": 45}, 
+{"current_level": 1, "leaf_id": "e673e890-4cce-11ec-9f15-3af9d3e9a6f0", "parents": "root", "rule": "if obj[13]>2:", "feature_idx": 13, "feature_name": "Income", "instances": 5, "metric": 0.7219280948873623, "return_statement": 0, "tree_id": 45}, 
+{"current_level": 2, "leaf_id": "e673eade-4cce-11ec-9f15-3af9d3e9a6f0", "parents": "e673e890-4cce-11ec-9f15-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 13, "feature_name": "Income", "instances": 5, "metric": 0, "return_statement": 1, "tree_id": 45}, 
+{"current_level": 1, "leaf_id": "e676c0d8-4cce-11ec-9f15-3af9d3e9a6f0", "parents": "root", "rule": "if obj[13]<=2:", "feature_idx": 13, "feature_name": "Income", "instances": 5, "metric": 0.7219280948873623, "return_statement": 0, "tree_id": 45}, 
+{"current_level": 2, "leaf_id": "e676c36c-4cce-11ec-9f15-3af9d3e9a6f0", "parents": "e676c0d8-4cce-11ec-9f15-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 13, "feature_name": "Income", "instances": 5, "metric": 0, "return_statement": 1, "tree_id": 45}
+]

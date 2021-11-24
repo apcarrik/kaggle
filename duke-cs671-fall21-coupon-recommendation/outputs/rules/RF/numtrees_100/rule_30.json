@@ -1,0 +1,11 @@
+[
+{"current_level": 1, "leaf_id": "e0b21846-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "root", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 10, "metric": 0, "return_statement": 0, "tree_id": 30}, 
+{"current_level": 1, "leaf_id": "e0b3da32-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "root", "rule": "if obj[8]>1:", "feature_idx": 8, "feature_name": "Age", "instances": 10, "metric": 1.0, "return_statement": 0, "tree_id": 30}, 
+{"current_level": 2, "leaf_id": "e0cfadfc-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "e0b3da32-4cce-11ec-b4b3-3af9d3e9a6f0", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 6, "metric": 0, "return_statement": 0, "tree_id": 30}, 
+{"current_level": 2, "leaf_id": "e0d1d424-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "e0b3da32-4cce-11ec-b4b3-3af9d3e9a6f0", "rule": "if obj[9]<=2:", "feature_idx": 9, "feature_name": "Maritalstatus", "instances": 6, "metric": 0.6500224216483541, "return_statement": 0, "tree_id": 30}, 
+{"current_level": 3, "leaf_id": "e0d1d5dc-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "e0d1d424-4cce-11ec-b4b3-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 9, "feature_name": "Maritalstatus", "instances": 6, "metric": 0, "return_statement": 1, "tree_id": 30}, 
+{"current_level": 2, "leaf_id": "e0d3bdac-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "e0b3da32-4cce-11ec-b4b3-3af9d3e9a6f0", "rule": "if obj[9]>2:", "feature_idx": 9, "feature_name": "Maritalstatus", "instances": 6, "metric": 0.6500224216483541, "return_statement": 0, "tree_id": 30}, 
+{"current_level": 3, "leaf_id": "e0d3bf78-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "e0d3bdac-4cce-11ec-b4b3-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 9, "feature_name": "Maritalstatus", "instances": 6, "metric": 0, "return_statement": 1, "tree_id": 30}, 
+{"current_level": 1, "leaf_id": "e0d7cd20-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "root", "rule": "if obj[8]<=1:", "feature_idx": 8, "feature_name": "Age", "instances": 10, "metric": 1.0, "return_statement": 0, "tree_id": 30}, 
+{"current_level": 2, "leaf_id": "e0d7cfb4-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "e0d7cd20-4cce-11ec-b4b3-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 8, "feature_name": "Age", "instances": 10, "metric": 0, "return_statement": 1, "tree_id": 30}
+]

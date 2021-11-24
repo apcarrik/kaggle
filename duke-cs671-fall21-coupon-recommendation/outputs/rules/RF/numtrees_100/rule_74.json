@@ -1,0 +1,11 @@
+[
+{"current_level": 1, "leaf_id": "e281fd80-4cce-11ec-affc-3af9d3e9a6f0", "parents": "root", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 10, "metric": 0, "return_statement": 0, "tree_id": 74}, 
+{"current_level": 1, "leaf_id": "e2841610-4cce-11ec-affc-3af9d3e9a6f0", "parents": "root", "rule": "if obj[14]<=2.0:", "feature_idx": 14, "feature_name": "Bar", "instances": 10, "metric": 0.8812908992306927, "return_statement": 0, "tree_id": 74}, 
+{"current_level": 2, "leaf_id": "e2a7f95e-4cce-11ec-affc-3af9d3e9a6f0", "parents": "e2841610-4cce-11ec-affc-3af9d3e9a6f0", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 8, "metric": 0, "return_statement": 0, "tree_id": 74}, 
+{"current_level": 2, "leaf_id": "e2a9f81c-4cce-11ec-affc-3af9d3e9a6f0", "parents": "e2841610-4cce-11ec-affc-3af9d3e9a6f0", "rule": "if obj[1]>0:", "feature_idx": 1, "feature_name": "Passanger", "instances": 8, "metric": 0.5435644431995964, "return_statement": 0, "tree_id": 74}, 
+{"current_level": 3, "leaf_id": "e2a9f9c0-4cce-11ec-affc-3af9d3e9a6f0", "parents": "e2a9f81c-4cce-11ec-affc-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 1, "feature_name": "Passanger", "instances": 8, "metric": 0, "return_statement": 1, "tree_id": 74}, 
+{"current_level": 2, "leaf_id": "e2abb800-4cce-11ec-affc-3af9d3e9a6f0", "parents": "e2841610-4cce-11ec-affc-3af9d3e9a6f0", "rule": "if obj[1]<=0:", "feature_idx": 1, "feature_name": "Passanger", "instances": 8, "metric": 0.5435644431995964, "return_statement": 0, "tree_id": 74}, 
+{"current_level": 3, "leaf_id": "e2abb9a4-4cce-11ec-affc-3af9d3e9a6f0", "parents": "e2abb800-4cce-11ec-affc-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 1, "feature_name": "Passanger", "instances": 8, "metric": 0, "return_statement": 1, "tree_id": 74}, 
+{"current_level": 1, "leaf_id": "e2afdc96-4cce-11ec-affc-3af9d3e9a6f0", "parents": "root", "rule": "if obj[14]>2.0:", "feature_idx": 14, "feature_name": "Bar", "instances": 10, "metric": 0.8812908992306927, "return_statement": 0, "tree_id": 74}, 
+{"current_level": 2, "leaf_id": "e2afdeee-4cce-11ec-affc-3af9d3e9a6f0", "parents": "e2afdc96-4cce-11ec-affc-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 14, "feature_name": "Bar", "instances": 10, "metric": 0, "return_statement": 1, "tree_id": 74}
+]

@@ -1,0 +1,11 @@
+[
+{"current_level": 1, "leaf_id": "e601f55a-4cce-11ec-a8e1-3af9d3e9a6f0", "parents": "root", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 5, "metric": 0, "return_statement": 0, "tree_id": 22}, 
+{"current_level": 1, "leaf_id": "e604b7ea-4cce-11ec-a8e1-3af9d3e9a6f0", "parents": "root", "rule": "if obj[3]>55:", "feature_idx": 3, "feature_name": "Temperature", "instances": 5, "metric": 0.9709505944546686, "return_statement": 0, "tree_id": 22}, 
+{"current_level": 2, "leaf_id": "e61a3c8c-4cce-11ec-a8e1-3af9d3e9a6f0", "parents": "e604b7ea-4cce-11ec-a8e1-3af9d3e9a6f0", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 3, "metric": 0, "return_statement": 0, "tree_id": 22}, 
+{"current_level": 2, "leaf_id": "e61be67c-4cce-11ec-a8e1-3af9d3e9a6f0", "parents": "e604b7ea-4cce-11ec-a8e1-3af9d3e9a6f0", "rule": "if obj[5]<=1:", "feature_idx": 5, "feature_name": "Coupon", "instances": 3, "metric": 0.9182958340544896, "return_statement": 0, "tree_id": 22}, 
+{"current_level": 3, "leaf_id": "e61be816-4cce-11ec-a8e1-3af9d3e9a6f0", "parents": "e61be67c-4cce-11ec-a8e1-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 5, "feature_name": "Coupon", "instances": 3, "metric": 0, "return_statement": 1, "tree_id": 22}, 
+{"current_level": 2, "leaf_id": "e61f29d6-4cce-11ec-a8e1-3af9d3e9a6f0", "parents": "e604b7ea-4cce-11ec-a8e1-3af9d3e9a6f0", "rule": "if obj[5]>1:", "feature_idx": 5, "feature_name": "Coupon", "instances": 3, "metric": 0.9182958340544896, "return_statement": 0, "tree_id": 22}, 
+{"current_level": 3, "leaf_id": "e61f2b84-4cce-11ec-a8e1-3af9d3e9a6f0", "parents": "e61f29d6-4cce-11ec-a8e1-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 5, "feature_name": "Coupon", "instances": 3, "metric": 0, "return_statement": 1, "tree_id": 22}, 
+{"current_level": 1, "leaf_id": "e6228f68-4cce-11ec-a8e1-3af9d3e9a6f0", "parents": "root", "rule": "if obj[3]<=55:", "feature_idx": 3, "feature_name": "Temperature", "instances": 5, "metric": 0.9709505944546686, "return_statement": 0, "tree_id": 22}, 
+{"current_level": 2, "leaf_id": "e6229116-4cce-11ec-a8e1-3af9d3e9a6f0", "parents": "e6228f68-4cce-11ec-a8e1-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 3, "feature_name": "Temperature", "instances": 5, "metric": 0, "return_statement": 1, "tree_id": 22}
+]
