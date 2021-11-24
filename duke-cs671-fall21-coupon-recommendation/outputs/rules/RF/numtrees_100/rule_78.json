@@ -1,0 +1,11 @@
+[
+{"current_level": 1, "leaf_id": "e29f8a6c-4cce-11ec-b85a-3af9d3e9a6f0", "parents": "root", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 10, "metric": 0, "return_statement": 0, "tree_id": 78}, 
+{"current_level": 1, "leaf_id": "e2a2a328-4cce-11ec-b85a-3af9d3e9a6f0", "parents": "root", "rule": "if obj[16]>2.0:", "feature_idx": 16, "feature_name": "Carryaway", "instances": 10, "metric": 0.8812908992306927, "return_statement": 0, "tree_id": 78}, 
+{"current_level": 2, "leaf_id": "e2c25e02-4cce-11ec-b85a-3af9d3e9a6f0", "parents": "e2a2a328-4cce-11ec-b85a-3af9d3e9a6f0", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 8, "metric": 0, "return_statement": 0, "tree_id": 78}, 
+{"current_level": 2, "leaf_id": "e2c69558-4cce-11ec-b85a-3af9d3e9a6f0", "parents": "e2a2a328-4cce-11ec-b85a-3af9d3e9a6f0", "rule": "if obj[0]<=1:", "feature_idx": 0, "feature_name": "Driving_to", "instances": 8, "metric": 0.5435644431995964, "return_statement": 0, "tree_id": 78}, 
+{"current_level": 3, "leaf_id": "e2c6976a-4cce-11ec-b85a-3af9d3e9a6f0", "parents": "e2c69558-4cce-11ec-b85a-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 0, "feature_name": "Driving_to", "instances": 8, "metric": 0, "return_statement": 1, "tree_id": 78}, 
+{"current_level": 2, "leaf_id": "e2c92aca-4cce-11ec-b85a-3af9d3e9a6f0", "parents": "e2a2a328-4cce-11ec-b85a-3af9d3e9a6f0", "rule": "if obj[0]>1:", "feature_idx": 0, "feature_name": "Driving_to", "instances": 8, "metric": 0.5435644431995964, "return_statement": 0, "tree_id": 78}, 
+{"current_level": 3, "leaf_id": "e2c92cdc-4cce-11ec-b85a-3af9d3e9a6f0", "parents": "e2c92aca-4cce-11ec-b85a-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 0, "feature_name": "Driving_to", "instances": 8, "metric": 0, "return_statement": 1, "tree_id": 78}, 
+{"current_level": 1, "leaf_id": "e2ce0f54-4cce-11ec-b85a-3af9d3e9a6f0", "parents": "root", "rule": "if obj[16]<=2.0:", "feature_idx": 16, "feature_name": "Carryaway", "instances": 10, "metric": 0.8812908992306927, "return_statement": 0, "tree_id": 78}, 
+{"current_level": 2, "leaf_id": "e2ce1152-4cce-11ec-b85a-3af9d3e9a6f0", "parents": "e2ce0f54-4cce-11ec-b85a-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 16, "feature_name": "Carryaway", "instances": 10, "metric": 0, "return_statement": 1, "tree_id": 78}
+]

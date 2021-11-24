@@ -1,0 +1,11 @@
+[
+{"current_level": 1, "leaf_id": "e365d3fc-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "root", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 10, "metric": 0, "return_statement": 0, "tree_id": 97}, 
+{"current_level": 1, "leaf_id": "e3693600-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "root", "rule": "if obj[13]<=4:", "feature_idx": 13, "feature_name": "Income", "instances": 10, "metric": 0.8812908992306927, "return_statement": 0, "tree_id": 97}, 
+{"current_level": 2, "leaf_id": "e387d006-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "e3693600-4cce-11ec-b4b3-3af9d3e9a6f0", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 8, "metric": 0, "return_statement": 0, "tree_id": 97}, 
+{"current_level": 2, "leaf_id": "e389c1f4-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "e3693600-4cce-11ec-b4b3-3af9d3e9a6f0", "rule": "if obj[1]>0:", "feature_idx": 1, "feature_name": "Passanger", "instances": 8, "metric": 0.5435644431995964, "return_statement": 0, "tree_id": 97}, 
+{"current_level": 3, "leaf_id": "e389c3ca-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "e389c1f4-4cce-11ec-b4b3-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 1, "feature_name": "Passanger", "instances": 8, "metric": 0, "return_statement": 1, "tree_id": 97}, 
+{"current_level": 2, "leaf_id": "e38bbe46-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "e3693600-4cce-11ec-b4b3-3af9d3e9a6f0", "rule": "if obj[1]<=0:", "feature_idx": 1, "feature_name": "Passanger", "instances": 8, "metric": 0.5435644431995964, "return_statement": 0, "tree_id": 97}, 
+{"current_level": 3, "leaf_id": "e38bc012-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "e38bbe46-4cce-11ec-b4b3-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 1, "feature_name": "Passanger", "instances": 8, "metric": 0, "return_statement": 1, "tree_id": 97}, 
+{"current_level": 1, "leaf_id": "e38f1a28-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "root", "rule": "if obj[13]>4:", "feature_idx": 13, "feature_name": "Income", "instances": 10, "metric": 0.8812908992306927, "return_statement": 0, "tree_id": 97}, 
+{"current_level": 2, "leaf_id": "e38f1bd6-4cce-11ec-b4b3-3af9d3e9a6f0", "parents": "e38f1a28-4cce-11ec-b4b3-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 13, "feature_name": "Income", "instances": 10, "metric": 0, "return_statement": 1, "tree_id": 97}
+]

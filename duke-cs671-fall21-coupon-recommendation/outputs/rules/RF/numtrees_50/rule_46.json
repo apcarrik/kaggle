@@ -1,0 +1,11 @@
+[
+{"current_level": 1, "leaf_id": "dd528532-4cce-11ec-bf8a-3af9d3e9a6f0", "parents": "root", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 20, "metric": 0, "return_statement": 0, "tree_id": 46}, 
+{"current_level": 1, "leaf_id": "dd5671c4-4cce-11ec-bf8a-3af9d3e9a6f0", "parents": "root", "rule": "if obj[9]>0:", "feature_idx": 9, "feature_name": "Maritalstatus", "instances": 20, "metric": 0.7219280948873623, "return_statement": 0, "tree_id": 46}, 
+{"current_level": 2, "leaf_id": "dd567390-4cce-11ec-bf8a-3af9d3e9a6f0", "parents": "dd5671c4-4cce-11ec-bf8a-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 9, "feature_name": "Maritalstatus", "instances": 20, "metric": 0, "return_statement": 1, "tree_id": 46}, 
+{"current_level": 1, "leaf_id": "dd585d5e-4cce-11ec-bf8a-3af9d3e9a6f0", "parents": "root", "rule": "if obj[9]<=0:", "feature_idx": 9, "feature_name": "Maritalstatus", "instances": 20, "metric": 0.7219280948873623, "return_statement": 0, "tree_id": 46}, 
+{"current_level": 2, "leaf_id": "dd7568b8-4cce-11ec-bf8a-3af9d3e9a6f0", "parents": "dd585d5e-4cce-11ec-bf8a-3af9d3e9a6f0", "rule": "else: return 'True'", "feature_idx": -1, "feature_name": "", "instances": 7, "metric": 0, "return_statement": 0, "tree_id": 46}, 
+{"current_level": 2, "leaf_id": "dd77b398-4cce-11ec-bf8a-3af9d3e9a6f0", "parents": "dd585d5e-4cce-11ec-bf8a-3af9d3e9a6f0", "rule": "if obj[14]<=0.0:", "feature_idx": 14, "feature_name": "Bar", "instances": 7, "metric": 0.9852281360342516, "return_statement": 0, "tree_id": 46}, 
+{"current_level": 3, "leaf_id": "dd77b596-4cce-11ec-bf8a-3af9d3e9a6f0", "parents": "dd77b398-4cce-11ec-bf8a-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 14, "feature_name": "Bar", "instances": 7, "metric": 0, "return_statement": 1, "tree_id": 46}, 
+{"current_level": 2, "leaf_id": "dd7a51e8-4cce-11ec-bf8a-3af9d3e9a6f0", "parents": "dd585d5e-4cce-11ec-bf8a-3af9d3e9a6f0", "rule": "if obj[14]>0.0:", "feature_idx": 14, "feature_name": "Bar", "instances": 7, "metric": 0.9852281360342516, "return_statement": 0, "tree_id": 46}, 
+{"current_level": 3, "leaf_id": "dd7a53e6-4cce-11ec-bf8a-3af9d3e9a6f0", "parents": "dd7a51e8-4cce-11ec-bf8a-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 14, "feature_name": "Bar", "instances": 7, "metric": 0, "return_statement": 1, "tree_id": 46}
+]

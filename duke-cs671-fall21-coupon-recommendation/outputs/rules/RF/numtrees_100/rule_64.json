@@ -1,0 +1,11 @@
+[
+{"current_level": 1, "leaf_id": "e20fe1be-4cce-11ec-94e3-3af9d3e9a6f0", "parents": "root", "rule": "else: return 'True'", "feature_idx": -1, "feature_name": "", "instances": 10, "metric": 0, "return_statement": 0, "tree_id": 64}, 
+{"current_level": 1, "leaf_id": "e211ff08-4cce-11ec-94e3-3af9d3e9a6f0", "parents": "root", "rule": "if obj[4]<=1:", "feature_idx": 4, "feature_name": "Time", "instances": 10, "metric": 0.9709505944546686, "return_statement": 0, "tree_id": 64}, 
+{"current_level": 2, "leaf_id": "e21200de-4cce-11ec-94e3-3af9d3e9a6f0", "parents": "e211ff08-4cce-11ec-94e3-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 4, "feature_name": "Time", "instances": 10, "metric": 0, "return_statement": 1, "tree_id": 64}, 
+{"current_level": 1, "leaf_id": "e214236e-4cce-11ec-94e3-3af9d3e9a6f0", "parents": "root", "rule": "if obj[4]>1:", "feature_idx": 4, "feature_name": "Time", "instances": 10, "metric": 0.9709505944546686, "return_statement": 0, "tree_id": 64}, 
+{"current_level": 2, "leaf_id": "e22eee38-4cce-11ec-94e3-3af9d3e9a6f0", "parents": "e214236e-4cce-11ec-94e3-3af9d3e9a6f0", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 5, "metric": 0, "return_statement": 0, "tree_id": 64}, 
+{"current_level": 2, "leaf_id": "e2310dd0-4cce-11ec-94e3-3af9d3e9a6f0", "parents": "e214236e-4cce-11ec-94e3-3af9d3e9a6f0", "rule": "if obj[15]>0.0:", "feature_idx": 15, "feature_name": "Coffeehouse", "instances": 5, "metric": 0.7219280948873623, "return_statement": 0, "tree_id": 64}, 
+{"current_level": 3, "leaf_id": "e2310fb0-4cce-11ec-94e3-3af9d3e9a6f0", "parents": "e2310dd0-4cce-11ec-94e3-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 15, "feature_name": "Coffeehouse", "instances": 5, "metric": 0, "return_statement": 1, "tree_id": 64}, 
+{"current_level": 2, "leaf_id": "e2332534-4cce-11ec-94e3-3af9d3e9a6f0", "parents": "e214236e-4cce-11ec-94e3-3af9d3e9a6f0", "rule": "if obj[15]<=0.0:", "feature_idx": 15, "feature_name": "Coffeehouse", "instances": 5, "metric": 0.7219280948873623, "return_statement": 0, "tree_id": 64}, 
+{"current_level": 3, "leaf_id": "e233276e-4cce-11ec-94e3-3af9d3e9a6f0", "parents": "e2332534-4cce-11ec-94e3-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 15, "feature_name": "Coffeehouse", "instances": 5, "metric": 0, "return_statement": 1, "tree_id": 64}
+]

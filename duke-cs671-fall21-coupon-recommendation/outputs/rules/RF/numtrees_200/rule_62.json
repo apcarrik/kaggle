@@ -1,0 +1,7 @@
+[
+{"current_level": 1, "leaf_id": "e6db5d68-4cce-11ec-8911-3af9d3e9a6f0", "parents": "root", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 5, "metric": 0, "return_statement": 0, "tree_id": 62}, 
+{"current_level": 1, "leaf_id": "e6de3326-4cce-11ec-8911-3af9d3e9a6f0", "parents": "root", "rule": "if obj[1]<=1:", "feature_idx": 1, "feature_name": "Passanger", "instances": 5, "metric": 0.7219280948873623, "return_statement": 0, "tree_id": 62}, 
+{"current_level": 2, "leaf_id": "e6de3524-4cce-11ec-8911-3af9d3e9a6f0", "parents": "e6de3326-4cce-11ec-8911-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 1, "feature_name": "Passanger", "instances": 5, "metric": 0, "return_statement": 1, "tree_id": 62}, 
+{"current_level": 1, "leaf_id": "e6e07c26-4cce-11ec-8911-3af9d3e9a6f0", "parents": "root", "rule": "if obj[1]>1:", "feature_idx": 1, "feature_name": "Passanger", "instances": 5, "metric": 0.7219280948873623, "return_statement": 0, "tree_id": 62}, 
+{"current_level": 2, "leaf_id": "e6e07e56-4cce-11ec-8911-3af9d3e9a6f0", "parents": "e6e07c26-4cce-11ec-8911-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 1, "feature_name": "Passanger", "instances": 5, "metric": 0, "return_statement": 1, "tree_id": 62}
+]

@@ -1,0 +1,5 @@
+[
+{"current_level": 1, "leaf_id": "f88c4fa4-4cce-11ec-a19d-3af9d3e9a6f0", "parents": "root", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 1, "metric": 0, "return_statement": 0, "tree_id": 175}, 
+{"current_level": 1, "leaf_id": "f88ff8ac-4cce-11ec-a19d-3af9d3e9a6f0", "parents": "root", "rule": "if obj[0]<=2:", "feature_idx": 0, "feature_name": "Driving_to", "instances": 1, "metric": 0.0, "return_statement": 0, "tree_id": 175}, 
+{"current_level": 2, "leaf_id": "f88ffb18-4cce-11ec-a19d-3af9d3e9a6f0", "parents": "f88ff8ac-4cce-11ec-a19d-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 0, "feature_name": "Driving_to", "instances": 1, "metric": 0, "return_statement": 1, "tree_id": 175}
+]

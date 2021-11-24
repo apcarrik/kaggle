@@ -1,0 +1,27 @@
+def findDecision(obj): #obj[0]: Coupon, obj[1]: Education, obj[2]: Occupation, obj[3]: Distance
+	# {"feature": "Coupon", "instances": 51, "metric_value": 0.8974, "depth": 1}
+	if obj[0]>0:
+		# {"feature": "Occupation", "instances": 46, "metric_value": 0.8281, "depth": 2}
+		if obj[2]<=20:
+			# {"feature": "Education", "instances": 42, "metric_value": 0.8631, "depth": 3}
+			if obj[1]<=3:
+				# {"feature": "Distance", "instances": 39, "metric_value": 0.8905, "depth": 4}
+				if obj[3]<=1:
+					return 'True'
+				elif obj[3]>1:
+					return 'True'
+				else: return 'True'
+			elif obj[1]>3:
+				return 'True'
+			else: return 'True'
+		elif obj[2]>20:
+			return 'True'
+		else: return 'True'
+	elif obj[0]<=0:
+		# {"feature": "Occupation", "instances": 5, "metric_value": 0.7219, "depth": 2}
+		if obj[2]>1:
+			return 'False'
+		elif obj[2]<=1:
+			return 'True'
+		else: return 'True'
+	else: return 'False'

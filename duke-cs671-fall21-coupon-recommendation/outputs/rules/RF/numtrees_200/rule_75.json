@@ -1,0 +1,11 @@
+[
+{"current_level": 1, "leaf_id": "e7267910-4cce-11ec-a764-3af9d3e9a6f0", "parents": "root", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 5, "metric": 0, "return_statement": 0, "tree_id": 75}, 
+{"current_level": 1, "leaf_id": "e7293088-4cce-11ec-a764-3af9d3e9a6f0", "parents": "root", "rule": "if obj[2]<=0:", "feature_idx": 2, "feature_name": "Weather", "instances": 5, "metric": 0.9709505944546686, "return_statement": 0, "tree_id": 75}, 
+{"current_level": 2, "leaf_id": "e73dc5de-4cce-11ec-a764-3af9d3e9a6f0", "parents": "e7293088-4cce-11ec-a764-3af9d3e9a6f0", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 3, "metric": 0, "return_statement": 0, "tree_id": 75}, 
+{"current_level": 2, "leaf_id": "e7409e30-4cce-11ec-a764-3af9d3e9a6f0", "parents": "e7293088-4cce-11ec-a764-3af9d3e9a6f0", "rule": "if obj[4]>2:", "feature_idx": 4, "feature_name": "Time", "instances": 3, "metric": 0.9182958340544896, "return_statement": 0, "tree_id": 75}, 
+{"current_level": 3, "leaf_id": "e740a060-4cce-11ec-a764-3af9d3e9a6f0", "parents": "e7409e30-4cce-11ec-a764-3af9d3e9a6f0", "rule": "return 'True'", "feature_idx": 4, "feature_name": "Time", "instances": 3, "metric": 0, "return_statement": 1, "tree_id": 75}, 
+{"current_level": 2, "leaf_id": "e742a4b4-4cce-11ec-a764-3af9d3e9a6f0", "parents": "e7293088-4cce-11ec-a764-3af9d3e9a6f0", "rule": "if obj[4]<=2:", "feature_idx": 4, "feature_name": "Time", "instances": 3, "metric": 0.9182958340544896, "return_statement": 0, "tree_id": 75}, 
+{"current_level": 3, "leaf_id": "e742a676-4cce-11ec-a764-3af9d3e9a6f0", "parents": "e742a4b4-4cce-11ec-a764-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 4, "feature_name": "Time", "instances": 3, "metric": 0, "return_statement": 1, "tree_id": 75}, 
+{"current_level": 1, "leaf_id": "e746a7f8-4cce-11ec-a764-3af9d3e9a6f0", "parents": "root", "rule": "if obj[2]>0:", "feature_idx": 2, "feature_name": "Weather", "instances": 5, "metric": 0.9709505944546686, "return_statement": 0, "tree_id": 75}, 
+{"current_level": 2, "leaf_id": "e746ab0e-4cce-11ec-a764-3af9d3e9a6f0", "parents": "e746a7f8-4cce-11ec-a764-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 2, "feature_name": "Weather", "instances": 5, "metric": 0, "return_statement": 1, "tree_id": 75}
+]

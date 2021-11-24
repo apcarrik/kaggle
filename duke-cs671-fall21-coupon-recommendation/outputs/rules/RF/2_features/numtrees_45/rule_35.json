@@ -1,0 +1,11 @@
+[
+{"current_level": 1, "leaf_id": "8ff2f5e2-4cc4-11ec-b5be-3af9d3e9a6f0", "parents": "root", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 23, "metric": 0, "return_statement": 0, "tree_id": 35}, 
+{"current_level": 1, "leaf_id": "8ffafef4-4cc4-11ec-b5be-3af9d3e9a6f0", "parents": "root", "rule": "if obj[1]<=2:", "feature_idx": 1, "feature_name": "Education", "instances": 23, "metric": 0.9321115676166747, "return_statement": 0, "tree_id": 35}, 
+{"current_level": 2, "leaf_id": "8ffe124c-4cc4-11ec-b5be-3af9d3e9a6f0", "parents": "8ffafef4-4cc4-11ec-b5be-3af9d3e9a6f0", "rule": "else: return 'False'", "feature_idx": -1, "feature_name": "", "instances": 20, "metric": 0, "return_statement": 0, "tree_id": 35}, 
+{"current_level": 2, "leaf_id": "9001b442-4cc4-11ec-b5be-3af9d3e9a6f0", "parents": "8ffafef4-4cc4-11ec-b5be-3af9d3e9a6f0", "rule": "if obj[0]>0:", "feature_idx": 0, "feature_name": "Coupon", "instances": 20, "metric": 0.9709505944546686, "return_statement": 0, "tree_id": 35}, 
+{"current_level": 3, "leaf_id": "9001b60e-4cc4-11ec-b5be-3af9d3e9a6f0", "parents": "9001b442-4cc4-11ec-b5be-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 0, "feature_name": "Coupon", "instances": 20, "metric": 0, "return_statement": 1, "tree_id": 35}, 
+{"current_level": 2, "leaf_id": "9003b29c-4cc4-11ec-b5be-3af9d3e9a6f0", "parents": "8ffafef4-4cc4-11ec-b5be-3af9d3e9a6f0", "rule": "if obj[0]<=0:", "feature_idx": 0, "feature_name": "Coupon", "instances": 20, "metric": 0.9709505944546686, "return_statement": 0, "tree_id": 35}, 
+{"current_level": 3, "leaf_id": "9003b422-4cc4-11ec-b5be-3af9d3e9a6f0", "parents": "9003b29c-4cc4-11ec-b5be-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 0, "feature_name": "Coupon", "instances": 20, "metric": 0, "return_statement": 1, "tree_id": 35}, 
+{"current_level": 1, "leaf_id": "90090580-4cc4-11ec-b5be-3af9d3e9a6f0", "parents": "root", "rule": "if obj[1]>2:", "feature_idx": 1, "feature_name": "Education", "instances": 23, "metric": 0.9321115676166747, "return_statement": 0, "tree_id": 35}, 
+{"current_level": 2, "leaf_id": "9009088c-4cc4-11ec-b5be-3af9d3e9a6f0", "parents": "90090580-4cc4-11ec-b5be-3af9d3e9a6f0", "rule": "return 'False'", "feature_idx": 1, "feature_name": "Education", "instances": 23, "metric": 0, "return_statement": 1, "tree_id": 35}
+]
